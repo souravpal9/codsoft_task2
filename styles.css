@@ -1,0 +1,322 @@
+/* Custom CSS with Improved Styling */
+
+/* Body background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+  }
+  
+  /* Header and Navbar */
+  header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+   color: #FFFFFF8C;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #212529;
+  }
+  
+  .nav-link {
+    font-size: 18px;
+  }
+  
+  /* Navbar hover effect */
+  .nav-link:hover {
+    color: #0056b3;
+  }
+  
+  /* Hero Section */
+  .img-fluid {
+    max-width: 60%;
+    height: 125%;
+}
+
+.just{
+  margin-top: 90px;
+  margin-bottom: 1rem;
+  margin-left: -100px;
+}
+
+  #hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background: rgb(80,94,209);
+    background: radial-gradient(circle, rgba(80,94,209,1) 0%, rgba(120,51,204,1) 49%, rgba(54,133,227,1) 100%);
+    text-align: center;
+    padding: 150px 0;
+  }
+  
+  #hero h1 {
+    font-size: 64px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  #hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  #hero .btn {
+    padding: 12px 30px;
+    font-size: 18px;
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  /* Hero Section hover effect */
+  #hero .btn:hover {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  /* About Me Section */
+  #hero {
+    background-color: #fff;
+    color: #ffffff;
+    background: rgb(80,94,209);
+background: radial-gradient(circle, rgba(80,94,209,1) 0%, rgba(120,51,204,1) 49%, rgba(54,133,227,1) 100%);
+  }
+  
+  #hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #hero p {
+    font-size: 20px;
+  }
+  
+  /* Skills Section */
+  #skills {
+    background-color: #007bff;
+    color: white;
+    background: rgb(80,94,209);
+    background: radial-gradient(circle, rgba(80,94,209,1) 0%, rgba(120,51,204,1) 49%, rgba(54,133,227,1) 100%);
+  }
+  
+  #skills h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .skill-list {
+    list-style: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .skill-list li {
+    background-color: #0056b3;
+    color: #fff;
+    border-radius: 20px;
+    padding: 8px 16px;
+    margin: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  /* Skill List hover effect */
+  .skill-list li:hover {
+    background-color: #007bff;
+  }
+  
+  /* Portfolio Section */
+  #portfolio {
+    background-color: #f0f0f0;
+    color: white;
+    background: rgb(80,94,209);
+    background: radial-gradient(circle, rgba(80,94,209,1) 0%, rgba(120,51,204,1) 49%, rgba(54,133,227,1) 100%);
+  }
+  
+  #portfolio h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .project {
+    background-color: #212529;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .project p {
+    font-size: 16px;
+  }
+  
+  /* Portfolio hover effect */
+  .project:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Blog Section */
+  #blog {
+    color: white;
+    background: rgb(80,94,209);
+    background: radial-gradient(circle, rgba(80,94,209,1) 0%, rgba(120,51,204,1) 49%, rgba(54,133,227,1) 100%);
+  }
+  
+  #blog h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .blog-post {
+    background-color: #212529;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .blog-post h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .blog-post p {
+    font-size: 16px;
+  }
+  
+  /* Blog hover effect */
+  .blog-post:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Contact Me Section */
+  .content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    background: rgb(80,94,209);
+    background: radial-gradient(circle, rgba(80,94,209,1) 0%, rgba(120,51,204,1) 49%, rgba(54,133,227,1) 100%);
+  }
+  
+  #contact {
+    background-color: #212529;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
+    
+  }
+  
+  #contact:hover {
+    transform: scale(1.05);
+  }
+  
+  #contact h2 {
+    margin-bottom: 15px;
+    color: #fff;
+  }
+  
+  .social-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-links li {
+    margin: 10px;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .social-links a:hover {
+    background-color: #0056b3;
+  }
+  
+/* footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+  
+  #blog .row,
+  #portfolio .row {
+    margin: 20px 0;
+  }
+/* ... Your existing CSS ... */
+
+/* Download CV Section */
+#download-cv {
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #download-cv h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #download-cv .btn-primary {
+    font-size: 18px;
+    padding: 12px 24px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #download-cv .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+
+/* circular heading */
+.circular-heading {
+  background-color: #212529;
+  color: white;
+  padding: 20px;
+  border-radius: 20px; /* Adjust the value as needed */
+  text-align: center;
+  margin: 0 auto; /* To center horizontally */
+  width: fit-content; /* To adjust width based on content */
+}
+
