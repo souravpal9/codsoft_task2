@@ -1,12 +1,8 @@
-/* Custom CSS with Improved Styling */
 
-/* Body background */
 body {
     font-family: Arial, sans-serif;
     background-color: #f8f8f8;
   }
-  
-  /* Header and Navbar */
   header {
     background-color: #007bff;
     color: #fff;
@@ -25,13 +21,11 @@ body {
   .nav-link {
     font-size: 18px;
   }
-  
-  /* Navbar hover effect */
+
   .nav-link:hover {
     color: #0056b3;
   }
-  
-  /* Hero Section */
+
   .img-fluid {
     max-width: 60%;
     height: 125%;
@@ -71,14 +65,12 @@ body {
     background-color: #0056b3;
     border-color: #0056b3;
   }
-  
-  /* Hero Section hover effect */
+
   #hero .btn:hover {
     background-color: #007bff;
     border-color: #007bff;
   }
-  
-  /* About Me Section */
+
   #hero {
     background-color: #fff;
     color: #ffffff;
@@ -94,8 +86,7 @@ background: radial-gradient(circle, rgba(80,94,209,1) 0%, rgba(120,51,204,1) 49%
   #hero p {
     font-size: 20px;
   }
-  
-  /* Skills Section */
+
   #skills {
     background-color: #007bff;
     color: white;
@@ -127,8 +118,7 @@ background: radial-gradient(circle, rgba(80,94,209,1) 0%, rgba(120,51,204,1) 49%
   .skill-list li:hover {
     background-color: #007bff;
   }
-  
-  /* Portfolio Section */
+
   #portfolio {
     background-color: #f0f0f0;
     color: white;
@@ -164,7 +154,6 @@ background: radial-gradient(circle, rgba(80,94,209,1) 0%, rgba(120,51,204,1) 49%
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
   }
   
-  /* Blog Section */
   #blog {
     color: white;
     background: rgb(80,94,209);
@@ -199,7 +188,6 @@ background: radial-gradient(circle, rgba(80,94,209,1) 0%, rgba(120,51,204,1) 49%
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
   }
   
-  /* Contact Me Section */
   .content {
     flex: 1;
     display: flex;
@@ -252,8 +240,7 @@ background: radial-gradient(circle, rgba(80,94,209,1) 0%, rgba(120,51,204,1) 49%
   .social-links a:hover {
     background-color: #0056b3;
   }
-  
-/* footer */
+
 .footer {
   background-color: #333;
   color: #fff;
@@ -265,9 +252,7 @@ background: radial-gradient(circle, rgba(80,94,209,1) 0%, rgba(120,51,204,1) 49%
   #portfolio .row {
     margin: 20px 0;
   }
-/* ... Your existing CSS ... */
 
-/* Download CV Section */
 #download-cv {
     background-color: #f8f8f8;
     color: #333;
@@ -309,7 +294,6 @@ background: radial-gradient(circle, rgba(80,94,209,1) 0%, rgba(120,51,204,1) 49%
 }
 
 
-/* circular heading */
 .circular-heading {
   background-color: #212529;
   color: white;
